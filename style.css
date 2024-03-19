@@ -5,6 +5,30 @@
     --branco:#FFFFFF;
     --botao-ativo:#3A375E;
     --botao-inativo:#3A375E;
-    --texto-fundo:#FFFFFF; 
+    --botao-fundo:#FFFFFF; 
     
+}
+body{
+    background-color: var(--cor-de-fundo);
+color: var(--branco);
+font-family: 'chakra petch', sans-serif;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-principa{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+.titulo-principa span{
+    color: ;
 }
