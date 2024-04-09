@@ -53,6 +53,11 @@ font-family: 'chakra petch', sans-serif;
 }
 
 
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+
+
 .botoes{
     display: block;
 }
@@ -63,7 +68,9 @@ font-family: 'chakra petch', sans-serif;
     
 }
 
-.abs-texto
+.abas-texto{
+    background-color: var(--texto-fundo);
+}
 
 @media screen and(min-width: 768px){
     .botoes{
@@ -73,6 +80,6 @@ font-family: 'chakra petch', sans-serif;
         border-radius: 40px 0 0 0;
      }
      .botao:first-child{
-        border-radius: 0 40;
+        border-radius: 0 0 40;
      }
 }
